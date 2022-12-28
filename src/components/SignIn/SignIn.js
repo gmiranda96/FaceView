@@ -18,7 +18,7 @@ class SignIn extends React.Component {
 	}
 
 	onSubmitSignIn = () => {
-		fetch('https://gmiranda96.github.io/FaceView/signin', {
+		fetch('https://faceupserver-production.up.railway.app/signin', {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({

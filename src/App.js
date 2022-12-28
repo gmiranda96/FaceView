@@ -105,7 +105,7 @@ onButtonSubmit = () => {
     .then((response) => response.json())
     .then((response) => {
       if (response) {
-      fetch('https://gmiranda96.github.io/FaceView/image', {
+      fetch('https://faceupserver-production.up.railway.app/image', {
         method: 'put',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({

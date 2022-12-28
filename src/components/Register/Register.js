@@ -23,7 +23,7 @@ class Register extends React.Component {
 	}
 
 onSubmitSignIn = () => {
-		fetch('https://gmiranda96.github.io/FaceView/register', {
+		fetch('https://faceupserver-production.up.railway.app/register', {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
